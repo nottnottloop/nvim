@@ -8,6 +8,5 @@ return {
             transparent_background = false,
             nvim_tree_darker = true,
         })
-        vim.cmd.colorscheme("vscode_modern")
     end,
 }
