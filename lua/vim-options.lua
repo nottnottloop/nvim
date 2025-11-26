@@ -11,8 +11,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Comment keybinds
-vim.keymap.set("n", "<C-_>", "gcc", { remap = true })
-vim.keymap.set("v", "<C-_>", "gc", { remap = true })
+vim.keymap.set("n", "<leader>cc", "gcc", { remap = true })
+vim.keymap.set("v", "<leader>cc", "gc", { remap = true })
 
 -- Window splitting
 vim.keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically

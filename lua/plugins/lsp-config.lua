@@ -11,6 +11,8 @@ return {
 			ensure_installed = {
 				"lua_ls",
         "basedpyright",
+        "html",
+        "cssls",
 			},
 		},
 		dependencies = {
